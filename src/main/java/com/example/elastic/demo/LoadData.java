@@ -3,10 +3,10 @@ package com.example.elastic.demo;
 import com.example.elastic.demo.indices.BodyStyle;
 import com.example.elastic.demo.indices.Car;
 import com.example.elastic.demo.repo.CarRepository;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import lombok.extern.slf4j.Slf4j;
 
 import static java.util.Arrays.asList;
 

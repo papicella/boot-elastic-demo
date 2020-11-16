@@ -1,6 +1,6 @@
 spring:
   elasticsearch:
     rest:
-      username: elastic
-      password: ....
-      uris: http://10.1.1.1:9200
+      username: ${CLUSTER_ES_USERNAME:}
+      password: ${CLUSTER_ES_PASSWD:}
+      uris: http://${CLUSTER_LB_IP:localhost:9200}
